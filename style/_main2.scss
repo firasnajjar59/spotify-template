@@ -1,0 +1,22 @@
+@import "right-aside";
+
+@import "projcolor";
+@import "nav";
+@import "main-content";
+
+.main-grid{
+    display: grid;
+    grid-template-areas:
+    "aside navdiv navdiv navdiv navdiv"
+    "aside main main main main";
+    position: relative;
+}
+
+
+
+.nopadding{
+    padding: 0;
+}
+.nomargin{
+    margin: 0;
+}

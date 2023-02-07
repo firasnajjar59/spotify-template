@@ -1,0 +1,53 @@
+
+@import "main2";
+@import "projcolor";
+@import "nav";
+@import "main-content";
+.right-aside{
+    grid-area: aside;
+    min-height: 100px;
+    background-color: $black;
+    height: 100vh;
+    position: fixed;
+    width: 20%;
+    padding-top: 3rem;
+    .ul-menu{
+        list-style: none;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        svg{
+            width: 10rem;
+            // padding: 1rem;
+            .st0{fill:$white;}
+            .st1{fill:$white;}
+            .st2{fill:$white;}
+            .st3{fill:$white;}
+            .st4{fill:$white;}
+        }
+       li:nth-child(2){
+        padding-top: 1rem;
+       }
+       li:nth-child(5){
+        padding-top: 2rem;
+       }
+        .item{
+            
+            
+            
+            
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+}

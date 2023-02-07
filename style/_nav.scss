@@ -1,0 +1,64 @@
+@import "right-aside";
+@import "main2";
+@import "projcolor";
+
+@import "main-content";
+.nav-div{
+    grid-area: navdiv;
+    
+    position: fixed;
+    width: 80%;
+   height: 8vh; 
+   right: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgba($color: $black, $alpha: 0.92);
+   .back-forword{
+    display: flex;
+    .active{
+        color: $white; 
+        }
+    span{
+        width: 2em;
+        height: 2em;
+        background-color: $main-content-bg;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.1em;
+        color: gray;
+        font-size: 1em;
+    }
+   }
+   .btndiv{
+    a{
+    margin: 0.1em;
+    text-decoration: none;
+       
+}
+.btn-1{
+    background-color: $white;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 1.1em;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $black;
+    &:hover{
+        background-color: $black;
+        color: $white;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+}
+.btn-2{
+    color:gray;
+    &:hover{
+        color: $white;
+    }
+}
+   }
+  
+}
